@@ -1,0 +1,88 @@
+/* Home.css */
+
+/* General styles */
+.home {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alineación vertical */
+    min-height: 100vh;
+  }
+  
+  .home-content {
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Asegura que todo esté vertical */
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .skills-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .skills-list li {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%; /* Asegura que los ítems ocupen todo el ancho disponible */
+    text-align: center; /* Centra el texto dentro de cada ítem */
+  }
+  
+  /* Styling for the quote */
+  .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #ffeb3b;
+    margin-bottom: 30px;
+    border-left: 4px solid #ffeb3b;
+    padding-left: 15px;
+    width: 100%; /* Asegura que la cita ocupe todo el ancho disponible */
+    text-align: center;
+  }
+  
+  /* Button */
+  .cta-button {
+    display: inline-block;
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-top: 20px; /* Espacio entre el botón y el contenido superior */
+  }
+  
+  .cta-button:hover {
+    background-color: #ffc107;
+    transform: scale(1.1);
+  }
+  

@@ -1,0 +1,74 @@
+/* Contact.css */
+.contact {
+    padding: 40px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;  /* Centra los íconos con el texto */
+  }
+  
+  .contact-info i {
+    margin-right: 10px;  /* Espacio entre el ícono y el texto */
+    font-size: 1.5rem;   /* Tamaño de los íconos */
+    color: #2575fc;      /* Color de los íconos */
+  }
+  
+  .contact-info a {
+    color: #2575fc;      /* Color para los enlaces */
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contenedor principal de la sección de contacto, usa flexbox */
+  .contact-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los dos bloques */
+    align-items: flex-start; /* Alinea los elementos al inicio de la columna */
+    margin-top: 20px;
+  }
+  
+  /* Estilo para la columna de la información de contacto */
+  .contact-info {
+    flex: 1; /* La columna de la información ocupa el 50% del espacio */
+    font-size: 1.1rem;
+  }
+  
+  /* Estilo para la columna de los botones de acción */
+  .contact-actions {
+    flex: 1; /* La columna de los botones ocupa el otro 50% */
+    text-align: center; /* Centra el texto y los botones */
+    padding-left: 40px; /* Para un poco de espacio entre la información y los botones */
+  }
+  
+  .contact-actions p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de los botones */
+  .contact-actions .cta-button {
+    display: inline-block;
+    background-color: #2575fc;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 10px; /* Espacio entre los botones */
+  }
+  
+  .contact-actions .cta-button:hover {
+    background-color: #6a5acd;
+  }
+  

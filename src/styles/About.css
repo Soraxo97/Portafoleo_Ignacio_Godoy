@@ -1,0 +1,98 @@
+/* About.css */
+
+.about {
+  background: #f8fafc;
+  color: #2d3748;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Secciones específicas */
+.about-section {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 20px;
+}
+
+/* Estilo para lista de habilidades */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.skills-grid h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2b6cb0;
+  margin-bottom: 10px;
+}
+
+.skills-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-grid li {
+  font-size: 1rem;
+  padding: 5px;
+  background-color: #e2e8f0;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+/* Formación académica */
+.about-section p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.highlighted-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0f172a;
+  margin-top: 5px;
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .about-header h2 {
+    font-size: 2rem;
+  }
+  
+  .about-header p {
+    font-size: 1rem;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
