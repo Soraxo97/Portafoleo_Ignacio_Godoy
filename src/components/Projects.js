@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Projects.css';
 
 function Projects() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedImage, setSelectedImage] = useState('');
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const projectList = [
     {
@@ -11,7 +10,7 @@ function Projects() {
       description: 'Aplicación web para ingresar y borrar usuarios, productos y subproductos.',
       technologies: 'React, C#, SQL Server',
       role: 'Desarrollador Full-Stack',
-      image: '/images/CRUD.png',
+      image: `${process.env.PUBLIC_URL}/images/CRUD.png`, // Usando process.env.PUBLIC_URL
       repositories: [
         { label: 'Backend ASP.NET', url: 'https://github.com/Soraxo97/Crud_ASP.NET' },
         { label: 'Frontend React', url: 'https://github.com/Soraxo97/Front_Crud' },
@@ -23,7 +22,7 @@ function Projects() {
       description: 'Aplicación web para buscar canciones de una banda y ver información detallada como nombre de la canción, álbum, URL de vista previa, precio y fecha de lanzamiento.',
       technologies: 'React, C#, SQL Server',
       role: 'Desarrollador Full-Stack',
-      image: '/images/music-search.png',
+      image: `${process.env.PUBLIC_URL}/images/music-search.png`, // Usando process.env.PUBLIC_URL
       repositories: [
         { label: 'App Principal', url: 'https://github.com/Soraxo97/Prueba_Grupo_Lagos' },
         { label: 'Backend Node.js', url: 'https://github.com/Soraxo97/Node_Prueba_Grupo_Lagos' },
@@ -31,14 +30,12 @@ function Projects() {
     },
   ];
 
-  const openModal = (image) => {
+  const handleImageClick = (image) => {
     setSelectedImage(image);
-    setIsModalOpen(true);
   };
 
   const closeModal = () => {
-    setIsModalOpen(false);
-    setSelectedImage('');
+    setSelectedImage(null);
   };
 
   return (
@@ -51,7 +48,7 @@ function Projects() {
               src={project.image}
               alt={project.title}
               className="project-image"
-              onClick={() => openModal(project.image)}
+              onClick={() => handleImageClick(project.image)}
             />
             <div className="project-details">
               <h3>{project.title}</h3>
@@ -71,11 +68,10 @@ function Projects() {
       </div>
 
       {/* Modal para mostrar la imagen en tamaño completo */}
-      {isModalOpen && (
+      {selectedImage && (
         <div className="modal" onClick={closeModal}>
-          <div className="modal-content">
-            <img src={selectedImage} alt="Detalle del proyecto" />
-          </div>
+          <span className="close">&times;</span>
+          <img src={selectedImage} alt="Project" className="modal-content" />
         </div>
       )}
     </section>
