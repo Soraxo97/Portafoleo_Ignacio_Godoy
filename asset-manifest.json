@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portafoleo_Ignacio_Godoy/static/css/main.0e941ce2.css",
+    "main.css": "/Portafoleo_Ignacio_Godoy/static/css/main.c8d7274b.css",
     "main.js": "/Portafoleo_Ignacio_Godoy/static/js/main.6ebc9db0.js",
     "static/js/453.96c14def.chunk.js": "/Portafoleo_Ignacio_Godoy/static/js/453.96c14def.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Portafoleo_Ignacio_Godoy/index.html",
-    "main.0e941ce2.css.map": "/Portafoleo_Ignacio_Godoy/static/css/main.0e941ce2.css.map",
+    "main.c8d7274b.css.map": "/Portafoleo_Ignacio_Godoy/static/css/main.c8d7274b.css.map",
     "main.6ebc9db0.js.map": "/Portafoleo_Ignacio_Godoy/static/js/main.6ebc9db0.js.map",
     "453.96c14def.chunk.js.map": "/Portafoleo_Ignacio_Godoy/static/js/453.96c14def.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e941ce2.css",
+    "static/css/main.c8d7274b.css",
     "static/js/main.6ebc9db0.js"
   ]
 }
