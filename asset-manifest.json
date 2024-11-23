@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portafoleo_Ignacio_Godoy/static/css/main.c8d7274b.css",
-    "main.js": "/Portafoleo_Ignacio_Godoy/static/js/main.6ebc9db0.js",
-    "static/js/453.96c14def.chunk.js": "/Portafoleo_Ignacio_Godoy/static/js/453.96c14def.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portafoleo_Ignacio_Godoy/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/Portafoleo_Ignacio_Godoy/index.html",
-    "main.c8d7274b.css.map": "/Portafoleo_Ignacio_Godoy/static/css/main.c8d7274b.css.map",
-    "main.6ebc9db0.js.map": "/Portafoleo_Ignacio_Godoy/static/js/main.6ebc9db0.js.map",
-    "453.96c14def.chunk.js.map": "/Portafoleo_Ignacio_Godoy/static/js/453.96c14def.chunk.js.map"
+    "main.css": "/Portafolio_Ignacio_Godoy/static/css/main.ed2d70e9.css",
+    "main.js": "/Portafolio_Ignacio_Godoy/static/js/main.d0552da3.js",
+    "static/js/453.96c14def.chunk.js": "/Portafolio_Ignacio_Godoy/static/js/453.96c14def.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portafolio_Ignacio_Godoy/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Portafolio_Ignacio_Godoy/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Portafolio_Ignacio_Godoy/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portafolio_Ignacio_Godoy/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portafolio_Ignacio_Godoy/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/Portafolio_Ignacio_Godoy/index.html",
+    "main.ed2d70e9.css.map": "/Portafolio_Ignacio_Godoy/static/css/main.ed2d70e9.css.map",
+    "main.d0552da3.js.map": "/Portafolio_Ignacio_Godoy/static/js/main.d0552da3.js.map",
+    "453.96c14def.chunk.js.map": "/Portafolio_Ignacio_Godoy/static/js/453.96c14def.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8d7274b.css",
-    "static/js/main.6ebc9db0.js"
+    "static/css/main.ed2d70e9.css",
+    "static/js/main.d0552da3.js"
   ]
 }
